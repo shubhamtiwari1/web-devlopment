@@ -1,0 +1,48 @@
+/* Element selector */
+h1{
+    color: red;
+    border: 4px solid red;
+    background-color: lightblue;
+
+}
+/* id selector */
+#special{
+    color: purple;
+    border: black saddlebrown;
+    background-color: aqua;
+}
+#ravan{
+    color:red;
+}
+#hey{
+    color: green;
+}
+/* class selector can give one id to multiple element */
+.one{
+    font: bold;
+    color: purple;
+}
+.three{
+    border: solid red;
+
+}
+/* Attribute selector */
+
+input[text]{
+  
+    font: bold;
+    background-color: rgb(20, 142, 142);
+}
+input[password]{
+    color: rgb(13, 12, 15);
+    background-color: rgb(80, 5, 5);
+}
+a[herf="http://google.com"]{
+    font-weight:bold;
+    color:red;
+    font-size:34px;
+}
+/* universal selector */
+*{
+    border: 4px solid gray;
+}
