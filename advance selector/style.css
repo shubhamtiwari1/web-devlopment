@@ -1,0 +1,12 @@
+/* Descendent Selector*/
+div p strong{
+    color: red;
+    border: 5px solid red ;
+}
+p strong{
+    color: blue;
+  
+}
+ul li a[herf="http://google.com"]{
+    color: green;
+}
