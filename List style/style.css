@@ -1,0 +1,18 @@
+section{
+    border: 2px solid black;
+    margin: 20vw;
+}
+section ul{
+    /*list-style-type: circle ;    unsplash.com for image and can be add through url using list-type-image:  */
+    list-style-type: '\F8FF';
+    padding: 3px;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+h3{
+    font-size: 30px;
+}
+section ul li{
+    border:1px solid #ccc;
+}
