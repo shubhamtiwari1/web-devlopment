@@ -1,0 +1,18 @@
+section{
+    border: 1px solid #ccc;
+    padding:16px
+    width:75vw;
+    margin:40px auto;
+}
+section p{
+    font-size: 40px;
+}
+h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-family: 'Lumanosimo', cursive;
+
+}
+p {
+    font-family: 'Lumanosimo', cursive;
+}
