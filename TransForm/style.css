@@ -1,0 +1,23 @@
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+transition: 3s;
+}
+body{
+    background-color: cornflowerblue;
+}
+h1:hover{
+    transform: rotate(360deg);
+}
+div:hover{
+    border: 2px solid blue;
+    transform: rotate(270deg);
+    transition: all 4s 1s;
+  
+}
+div{
+    height: 300px;
+    width: 300px;
+}
