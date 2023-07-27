@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+section{
+    width: 70vw;
+    border: 1px solid black;
+    height: 700px;
+    margin: 40px auto;
+    background: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start; /* to manage space while shrinking */
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border:2px solid black
+}
+div:nth-last-of-type(1){
+    flex-grow: 1;
+}
+div:nth-last-of-type(5){
+    flex-grow: 2;
+    /* flex-basis:233px;  to give extra space to perticular div */
+    flex-shrink: 3;
+}
