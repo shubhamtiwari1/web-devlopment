@@ -1,0 +1,51 @@
+
+
+body{
+    /* perspective always given to parent to apply on child for 3d effect */
+    perspective: 800px;
+}
+
+div{
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid #ccc;
+}
+
+
+.side-a{
+    background-color: lightcoral;
+    z-index: 4;
+    /* more z-index correspond to upper layer */
+   
+}
+.side-b{
+    background-color: lightgreen;
+    z-index: 3;
+    transform: rotateY(180deg);
+    /* rotate again to come in front if we comment it out then we 
+    will see the blank or say hidden face of Side-A */
+   
+}
+
+.wrapper{
+    position: relative;
+    transition: 4s;
+    cursor: pointer;
+    margin: 30px auto;
+    /* transform-style: preserve-3d; to activate     backface-visibility: hidden;
+*/
+    transform-style: preserve-3d;
+
+}
+.side-a,.side-b{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.wrapper:hover{
+    transform: rotateY(180deg);
+ 
+}
+img{
+    height: 100% ;
+    width: 100%;
+}
