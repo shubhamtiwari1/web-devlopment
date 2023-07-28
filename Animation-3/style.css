@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-top: 15px solid blue;
+    border-bottom: 15px solid green;
+    border-left: 15px solid red;
+    border-right: 15px solid aqua;
+    border-radius: 50%;
+    margin: 300px auto;
+    animation: 500ms loader;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ 
+
+}
+/* to make loader in center
+body{
+    border: 2px solid black;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+
+@keyframes loader{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}

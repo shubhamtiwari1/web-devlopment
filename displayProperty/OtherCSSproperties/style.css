@@ -1,0 +1,30 @@
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+
+
+div{
+    border: 2px solid black;
+    width: 50vw;
+    height: 50vh;
+    overflow-y: scroll;
+    background-color: aqua;
+    display: inline;
+    image-resolution: 300px;
+}
+li{
+    border: 1px solid #ccc;    
+    padding: 15px;
+    margin: 10px auto;
+    border: radius 1px; 
+
+}
+#1{
+    size: 300px;
+}
