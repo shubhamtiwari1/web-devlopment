@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    /* border: 1px solid black;
+    /* height: 30px; */
+    /* width: 99%; */ 
+}
+.container{
+    width: 75vw;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    grid-auto-rows: 330px;
+    /* grid-auto-row is use to get height of the row */
+}
+
+div img:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    transition-duration: 2s;
+}
+
+nav ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+nav{
+    background-color: #778da9;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    height: 50px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+ul input{
+    margin-right: 0cm;
+}
+ 
+nav li a{
+    margin-right: 10px;
+}
+nav li:first-child{
+    margin-left: 120px;
+}
+div{
+    position: relative;
+}
+div i{
+    position: absolute;
+
+    top: 55%;
+    left: 55%;
+
+}
+nav li i{
+    margin-right: 15px;
+    
+}
+div i{
+    width: 50px;
+    height: 50px;
+    transition-timing-function: cubic-bezier(.47,2.24,1,.03);
+    transform: scale(0);
+}
+div:hover i{
+    transform: scale(3);
+    
+}
+section p{
+    width: 75vh;
+    margin: 30px auto;
+    background-color: #d6ccc2;
+}
+section h3{
+    width: 75vh;
+    margin: 30px auto;
+    background-color: #fefae0;
+    
+}
