@@ -1,0 +1,17 @@
+:root{
+    --main-color:#ccc;
+    --heading-color:purple;
+    /* declaring variable in css */
+}
+section{
+    border: 2px solid black;
+    margin: 30px  auto;
+    width: 75vw;
+    padding: 16px;
+    background-color: var(--main-color);
+}
+h2{
+    font-size: 2.5rem;
+    color: var(--heading-color);
+    /* using variable in css */
+}
